@@ -1,4 +1,4 @@
-def isprime(n):
+def isprime(n):   #creating the function
     if n > 1:
         for i in range(2,n):
             if (n%i)==0:
@@ -6,6 +6,6 @@ def isprime(n):
         else:    
             return True
 
-p=isprime(45)
+p=isprime(45)  #function calling
 print(p)
 
